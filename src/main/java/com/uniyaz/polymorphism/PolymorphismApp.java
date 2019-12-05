@@ -25,6 +25,7 @@ public class PolymorphismApp {
 //        Cicek cicek1 = new Orkide();
 //        cicek1.cicekAc();
 //
+
         Scanner scanner = new Scanner(System.in);
 
         do {
@@ -64,6 +65,5 @@ public class PolymorphismApp {
             agac.buyur();
             agac.yaprakDok();
         }
-
     }
 }
