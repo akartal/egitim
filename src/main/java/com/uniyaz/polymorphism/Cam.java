@@ -7,7 +7,7 @@ public class Cam extends Agac {
 
     @Override
     public void fotosentezYapar() {
-        System.out.println("ÇAM ağaçları genellikle gündüzleri fotosentez yapar");
+        System.out.println(getAd() +  " ÇAM ağaçları genellikle gündüzleri fotosentez yapar");
     }
 
     @Override

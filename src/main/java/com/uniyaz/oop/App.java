@@ -1,4 +1,4 @@
-package com.uniyaz;
+package com.uniyaz.oop;
 
 /**
  * Hello world!
