@@ -1,15 +1,17 @@
 package com.uniyaz.io;
 
 import java.io.Externalizable;
+import java.io.Serializable;
 
 /**
  * Created by AKARTAL on 9.12.2019.
  */
-public class Ilac {
+public class Ilac implements Serializable {
 
     private int id;
     private String adi;
     private EnumIlacTuru ilacTuru;
+    private transient float ucret;
 
     public Ilac(int id, String adi, EnumIlacTuru ilacTuru) {
         this.id = id;
@@ -39,5 +41,13 @@ public class Ilac {
 
     public void setIlacTuru(EnumIlacTuru ilacTuru) {
         this.ilacTuru = ilacTuru;
+    }
+
+    public float getUcret() {
+        return ucret;
+    }
+
+    public void setUcret(float ucret) {
+        this.ucret = ucret;
     }
 }
